@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iParty</title>
+    
+    <style>
+        
+        body {
+            margin: 0;
+        }
+        .botao{
+            padding: 100px 200px;
+            font-size: 50px;
+            background-color: rgba(128, 128, 128, 0.726);
+            color: white;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+        }
+        .conteinerA{     
+            display: flex;
+            background-image: url("../static/image/background3.png");
+            position: relative;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+        .imagem{
+            position: absolute;
+            width: 100vmax;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    
+    <div>
+        
+    </div>
+    <div class="conteinerA" >
+        <img src="../static/image/background3.png" class="imagem">
+        <button onclick="location.href= '{% url 'registrar' %}'" class="botao">Festar</button>
+    </div>
+    
+
+</body>
+</html>
