@@ -17,6 +17,12 @@ body{
     background-size: cover;
     background-position: center;
 }
+.tituloum{
+    padding-left: 8%;
+    padding-right: 30%;
+    font-size: 70px;
+}
+
 .bottom-bar{
     color: white;
     background-color: #3D0024;
@@ -77,6 +83,10 @@ header{
 .butao:hover{
     background-color: #72164c;
 }
-.pbut{
-    padding-top: 30%;
+.linhafoda{
+    font-weight: 600;
+    position: absolute; 
+    bottom: 20px;
+    padding-left: 10%;
 }
+
