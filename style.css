@@ -1,61 +1,82 @@
-.ola{
-    color: green;
-}
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-.botao{
-    padding: 100px 200px;
-    font-size: 50px;
-    background-color: rgba(128, 128, 128, 0.726);
-    color: white;
-    margin-bottom:150px;
+body{
+    background-color: #FBF3E4;
 }
-.conteinerA{   
-    padding-top: 100px;
-    background-image: url("../static/image/background3.png");  
-    background-size: cover;
-    background-position: center center;
-    height: 80vh;
+.corpo{
+    background-color: #FBF3E4;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background: url('images/fundo\ melhorado.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.logo{
-    align-self: center;
-    padding: 0 2rem;
-    font-size: 1cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+.bottom-bar{
+    color: white;
+    background-color: #3D0024;
 }
-nav {
-
-    
-    background-color: #fbf3e3;
-    color: rgb(12, 12, 12);
-    text-align: center;
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    padding-top: 20px;
 }
-.itens {
-    color: rgb(3, 3, 3);
-    text-decoration: none;
-    padding: 14px 16px;
-    display: inline-block;
+.logu{
+    padding-left: 8%;
 }
-.itens:hover {
-    background-color: #ddd;
-    color: black;
+.navigation{
+    padding-right: 10%;
 }
-.bottom-bar {
-    height: 100px;
-    bottom: 0;
-    left: 0;    
+.navigation a{
+    position:relative;
+    font-size: 30PX;
+    color: #3D0024;
+    font-weight: 700;
+    margin-left: 80px;
+
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
     width: 100%;
-    background-color: #fbf3e3;
-    color: rgb(0, 0, 0);
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+}
+.butao{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    background-color: #3D0024;
+    border: none;
     text-align: center;
-    padding: 10px;
+    text-decoration: none;
+    padding: 25px 60px;
+    margin: 0 10px;
+    border-radius: 80px;
+}
+.butao:hover{
+    background-color: #72164c;
+}
+.pbut{
+    padding-top: 30%;
 }
