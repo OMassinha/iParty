@@ -12,16 +12,57 @@
             <header>
                 <h2 class="logu" ><a href="index.html"><img src="images/LogoBranco-removebg-preview.png" alt="iParty" style="width: 40%;"></a></h2>
                 <nav class="navigation">
-                    <a href="#">Sobre Nós</a>
-                    <a href="#">Contato</a>
+                    <a href="index.html">home</a>
+                    <a href="index.html">Sobre Nós</a>
+                    <a href="index.html">Contato</a>
                 </nav> 
             </header>
+
             <form name="contact" netlify data-netlify-recaptcha="true">
                 <p>
-                <label>Name <input type="text" name="name" required/></label>
+                <label>Name <input type="text" name="nome" required/></label>
                 </p>
                 <p>
-                <label>Email <input type="email" name="email" required/></label>
+                <label>Sobrenome<input type="text" name="sobrenome" required/></label>
+                </p>
+                <p>
+                <label>telefone<input type="tel" name="telefone" required/></label>
+                </p>
+                <p>
+                <label>Name <input type="number" name="idade" required/></label>
+                </p>
+                
+                <select name="ocasiao" id="">
+                    <option>Aniversário</option>
+                    <option>Chá de bebê</option>
+                    <option>Despedida de solteiro/a</option>
+                    <option>Formatura</option>
+                    <option>Confraternização de empresa</option>
+                    <option>Festa Temática</option>
+                    <option>Resenha</option>
+                    <option>Outro</option>
+                </select>
+
+                <p>
+                <label>Orcamento<input type="number" name="orcamento" required/></label>
+                </p>
+                <p>
+                <label>Numero convidados<input type="number" name="convidados"/></label>
+                </p>
+                <p>
+                <label>Iipo de comida<input type="text" name="comida" required/></label>
+                </p>
+                <p>
+                <label>Tipo de bebida<input type="text" name="bebida" required/></label>
+                </p>
+                <p>
+                <label>Data<input type="date" name="data" required/></label>
+                </p>
+                <p>
+                <label>horario<input type="time" name="horario" required/></label>
+                </p>
+                <p>
+                <label>Infos adicionais<input type="text" name="infomais" required/></label>
                 </p>
                 <div data-netlify-recaptcha="true"></div>
                 <p>
@@ -30,6 +71,8 @@
             </form>
             
         </div>
+
+
 
         <div class="bottom-bar">
             <br><br><br><br>
