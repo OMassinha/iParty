@@ -17,16 +17,6 @@ body{
     background-size: cover;
     background-position: center;
 }
-.tituloum{
-    padding-left: 8%;
-    padding-right: 30%;
-    font-size: 70px;
-}
-
-.bottom-bar{
-    color: white;
-    background-color: #3D0024;
-}
 header{
     position: fixed;
     top: 0;
@@ -68,6 +58,13 @@ header{
 .navigation a:hover::after{
     transform: scaleX(1);
 }
+
+.tituloum{
+    padding-left: 8%;
+    padding-right: 30%;
+    font-size: 70px;
+}
+
 .butao{
     font-size: 50px;
     font-weight: 900;
@@ -89,4 +86,7 @@ header{
     bottom: 20px;
     padding-left: 10%;
 }
-
+.bottom-bar{
+    color: white;
+    background-color: #3D0024;
+}
