@@ -6,6 +6,7 @@
 }
 body{
     background-color: #FBF3E4;
+    overflow-x: hidden;
 }
 .corpo{
     background-color: #FBF3E4;
@@ -13,7 +14,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('images/fundo\ melhorado.png') no-repeat;
+    background: url('images/amigos2.jpg') no-repeat;
+    background-color: #3D0024;
     background-size: cover;
     background-position: center;
 }
@@ -30,7 +32,7 @@ header{
     padding-top: 20px;
 }
 .logu{
-    padding-left: 8%;
+    padding-left: 3%;
 }
 .navigation{
     padding-right: 10%;
@@ -73,7 +75,7 @@ header{
     border: none;
     text-align: center;
     text-decoration: none;
-    padding: 25px 60px;
+    padding: 30px 70px;
     margin: 0 10px;
     border-radius: 80px;
 }
@@ -85,6 +87,18 @@ header{
     position: absolute; 
     bottom: 20px;
     padding-left: 10%;
+}
+.conteinerdois{
+    display: flex;
+    justify-content: space-between;
+}
+.texto1{
+    display: inline-block;
+    background-color: red;
+    justify-content: center;
+}
+.imagemfesta{
+    background-color: brown; 
 }
 .bottom-bar{
     color: white;
