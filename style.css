@@ -162,7 +162,7 @@ header{
         transition: left .5s;
 
     }
-    *{
+    #check:checked ~ *{
         overflow-y: hidden;
         overflow-x: hidden;
     }
