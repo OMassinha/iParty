@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 body{
-    background-color: #FBF3E4;
-    overflow-x: hidden;
+    background-color: #FBF3E4;   
 }
 .corpo{
     background-color: #FBF3E4;
