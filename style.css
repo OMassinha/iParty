@@ -1,19 +1,24 @@
+/*Define caracteristicas do site como um todo*/
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Oswald;
 }
 body{
     background-color: #FBF3E4;
     overflow-x: hidden;
 }
-.corpo{ 
-    background-color: #FBF3E4;
+.logo{
+    padding-left: 3%;
+}
+/*-------------------------------------------*/
+/*Start All index conteiners*/
+.corpoindex{ 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    /*define imagem tela principal*/
     background: url('images/Fundoamigos.png') no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,11 +31,6 @@ header{
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
-    z-index: 99;
-    padding-top: 20px;
-}
-.logu{
-    padding-left: 3%;
 }
 .navigation{
     margin-top: 50px;
@@ -59,14 +59,6 @@ header{
 .navigation a:hover::after{
     transform: scaleX(1);
 }
-
-.tituloum{
-    color: #FBF3E4;
-    padding-left: 8%;
-    padding-right: 30%;
-    font-size: 80px;
-}
-
 .butao{
     font-size: 50px;
     font-weight: 900;
@@ -94,6 +86,13 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.texto2{
+    color: #FBF3E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .texto1{
     display: flex;
     align-items: center;
@@ -111,6 +110,60 @@ header{
     align-items:center;
     justify-content: left;
 }
+.conteinertres{
+    background-color: #3D0024;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.tituloum{
+    color: #FBF3E4;
+    padding-left: 8%;
+    padding-right: 30%;
+    font-size: 80px;
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*Start All registrar conteiners*/
+.corpo{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*Start All fornecedor conteiners*/
+.navigationfornecedor{
+    margin-top: 50px;
+    padding-right: 10%;
+}
+.navigationfornecedor a{
+    position:relative;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    margin-left: 80px;
+
+}
+.navigationfornecedor a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+    left: 0;
+    bottom: -6px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigationfornecedor a:hover::after{
+    transform: scaleX(1);
+}
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*configs tamanhos de tela difentes*/
 .bottom-bar{
     color: white;
     background-color: #3D0024;
