@@ -2,20 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    overflow-x: hidden;
+    font-family: Oswald;
 }
 body{
-    background-color: #FBF3E4;   
+    background-color: #FBF3E4;
+    overflow-x: hidden;
 }
-.corpo{
+.corpo{ 
     background-color: #FBF3E4;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('images/amigos2.jpg') no-repeat;
-    background-color: #3D0024;
+    background: url('images/Fundoamigos.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -40,7 +39,7 @@ header{
 .navigation a{
     position:relative;
     font-size: 30px;
-    color: #3D0024;
+    color: #FBF3E4;
     font-weight: 700;
     margin-left: 80px;
 
@@ -62,16 +61,17 @@ header{
 }
 
 .tituloum{
+    color: #FBF3E4;
     padding-left: 8%;
     padding-right: 30%;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .butao{
     font-size: 50px;
     font-weight: 900;
     color: white;
-    background-color: #3D0024;
+    background-color: #b91746;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -84,6 +84,7 @@ header{
     background-color: #72164c;
 }
 .linhafoda{
+    color: #FBF3E4;
     font-weight: 600;
     position: absolute; 
     bottom: 20px;
@@ -94,16 +95,32 @@ header{
     justify-content: space-between;
 }
 .texto1{
-    display: inline-block;
-    background-color: red;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+.texto1 p{
+    font-size: 0.6cm;
+    padding-left: 35%;
+    padding-right: 5%;
+}
+
 .imagemfesta{
-    background-color: brown; 
+    display: flex;
+    align-items:center;
+    justify-content: left;
 }
 .bottom-bar{
     color: white;
     background-color: #3D0024;
+    
+}
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .checkbtn{
     font-size: 30px;
