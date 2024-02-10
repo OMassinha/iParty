@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     font-family: Oswald;
+    overflow-x: hidden;
 }
 body{
     background-color: #FBF3E4;
-    overflow-x: hidden;
 }
 .logo{
     padding-bottom: 1%;
