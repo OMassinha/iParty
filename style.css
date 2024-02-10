@@ -81,6 +81,8 @@ header{
     background-color: #72164c;
 }
 .linhafoda{
+    font-size: 0.9vw;
+    width: 100vw;
     color: #FBF3E4;
     font-weight: 600;
     position: absolute; 
