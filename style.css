@@ -9,7 +9,13 @@ body{
     overflow-x: hidden;
 }
 .logo{
-    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 6%;
+    width: 18%;
+}
+.logocelular{
+    display: none;
 }
 /*-------------------------------------------*/
 /*Start All index conteiners*/
@@ -26,22 +32,21 @@ body{
 header{
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    padding: 20px 20px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .navigation{
-    margin-top: 50px;
-    padding-right: 10%;
+    justify-content: center;
+    padding-right: 5%;
 }
 .navigation a{
     position:relative;
     font-size: 30px;
     color: #FBF3E4;
     font-weight: 700;
-    margin-left: 80px;
+    margin-left: 50px;
 
 }
 .navigation a::after{
@@ -118,9 +123,10 @@ header{
 }
 .tituloum{
     color: #FBF3E4;
-    padding-left: 8%;
+    padding-top: 4%;    
+    padding-left: 6%;
     padding-right: 30%;
-    font-size: 80px;
+    font-size: 4.8vw;
 }
 /*-------------------------------------------*/
 /*-------------------------------------------*/
@@ -167,7 +173,6 @@ header{
 .bottom-bar{
     color: white;
     background-color: #3D0024;
-    
 }
 .contatos{
     display: flex;
@@ -187,10 +192,34 @@ header{
     display: none;
 }
 @media (max-width: 1140px){
+    .logocelular{
+        margin-top: 10px;
+        display: flex;
+        height:100px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .logo{
+        display: none;
+    }
+    .tituloum{
+        display: flex;
+        color: #FBF3E4;
+        font-size: 5vw;
+        flex-direction: column; 
+        align-items: center;
+        padding-left: 30vw;
+    }
+    .tituloum h1{
+        text-align: center;
+        width: 70vw;
+    }
+
     .checkbtn{
+        font-size: 0.9cm;
         display: block;
-        margin-top: 40px;
-        margin-right: 40px;
+        margin-top: 32px;
+        margin-right: 5%;
     }
     .navigation{
         position: fixed;
@@ -215,6 +244,7 @@ header{
         transition: transform .5s;
     }
     header{
+        align-items: normal;
         padding: 0 0;
         padding-top: 0;
         height: 100%; 
